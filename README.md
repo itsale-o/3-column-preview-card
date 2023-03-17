@@ -34,7 +34,7 @@ These are both my solutions for desktop and mobile
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
+- Solution URL: [My solution](https://itsale-o.github.io/3-column-preview-card/)
 
 ## My process
 
