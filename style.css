@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 7000px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+img{
+    width: 50px; 
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3{
+    font-family: Big Shoulders Display, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #F2F2F2;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: Lexend Deca, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+}
+
+.container1{
+    width: 287px;
+    height: 450px;
+    padding: 40px 36px 40px 40px;
+}
+
+
+#suv{
+    background-color: #006970;
+}
+
+button{
+    font-family: Lexend Deca, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+    border: #F2F2F2;
+}
+
+#b1{
+    color: #E38826;
+}
+
+#b2{
+    color: #006970;
+}
+
+#b3{
+    color: #004241;
+}
+
+button:hover{
+    background-color: #D5D8DC;
+}
+
+button:active {     
+    border: 2px solid #F2F2F2; 
+    background-color: transparent;
+    color: #F2F2F2 !important      
+}
+
+footer{
+    font-family: Lexend Deca, sans-serif;
+    margin-top: 5px;
+    font-size: 11px; text-align: center; 
+}
+
+footer a { color: hsl(228, 45%, 44%); }
+
+@media(min-width: 700px){
+
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sedan{
+        background-color: #E38826;
+        border-top-left-radius: 0.375em;
+        border-bottom-left-radius: 0.375em;
+    }
+
+    #luxury{
+        background-color: #004241;
+        border-top-right-radius: 0.375em;
+        border-bottom-right-radius: 0.375em;
+    }
+   
+}
+
+@media(max-width:700px){
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sedan{
+        background-color: #E38826;
+        border-top-left-radius: 0.375em;
+        border-top-right-radius: 0.375em;
+    }
+
+    #luxury{
+        background-color: #004241;
+        border-bottom-left-radius: 0.375em;
+        border-bottom-right-radius: 0.375em;
+    }
+}
