@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    background-color: #F2F2F2;
 }
 
 img{
@@ -23,7 +24,7 @@ h1, h2, h3{
     font-family: Big Shoulders Display, sans-serif;
     font-size: 35px;
     font-weight: 700;
-    color: hsla(0, 0%, 100%, 0.75);
+    color: #F2F2F2;
     margin-bottom: 30px;
 }
 
@@ -54,7 +55,7 @@ button{
     border-radius: 50px;
     width: 140px;
     height: 40px;
-    border: hsla(0, 0%, 100%, 0.75);
+    border: #F2F2F2;
 }
 
 #b1{
@@ -74,9 +75,9 @@ button:hover{
 }
 
 button:active {     
-    border: 2px solid hsla(0, 0%, 100%, 0.75); 
+    border: 2px solid #F2F2F2; 
     background-color: transparent;
-    color: hsla(0, 0%, 100%, 0.75) !important      
+    color: #F2F2F2 !important      
 }
 
 footer{
